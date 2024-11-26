@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>org.jenkins-ci.plugins</groupId>
+    <artifactId>plugin</artifactId>
+    <version>5.3</version>
+    <relativePath />
+  </parent>
+
+  <groupId>org.jenkins-ci.plugins.aws-java-sdk</groupId>
+  <artifactId>aws-java-sdk2-parent</artifactId>
+  <version>${revision}-${changelist}</version>
+  <packaging>pom</packaging>
+  <name>Amazon Web Services SDK 2 :: Parent</name>
+  <description>This plugin provides AWS SDK for Java for other plugins.</description>
+  <url>https://github.com/jenkinsci/aws-java-sdk2-plugin</url>
+
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+
+  <modules>
+    <module>aws-java-sdk2-apigateway</module>
+    <module>aws-java-sdk2-autoscaling</module>
+    <module>aws-java-sdk2-cloudformation</module>
+    <module>aws-java-sdk2-cloudfront</module>
+    <module>aws-java-sdk2-cloudwatchlogs</module>
+    <module>aws-java-sdk2-codebuild</module>
+    <module>aws-java-sdk2-codedeploy</module>
+    <module>aws-java-sdk2-core</module>
+    <module>aws-java-sdk2-ec2</module>
+    <module>aws-java-sdk2-ecr</module>
+    <module>aws-java-sdk2-ecs</module>
+    <module>aws-java-sdk2-efs</module>
+    <module>aws-java-sdk2-elasticbeanstalk</module>
+    <module>aws-java-sdk2-elasticloadbalancingv2</module>
+    <module>aws-java-sdk2-iam</module>
+    <module>aws-java-sdk2-kinesis</module>
+    <module>aws-java-sdk2-lambda</module>
+    <module>aws-java-sdk2-organizations</module>
+    <module>aws-java-sdk2-s3</module>
+    <module>aws-java-sdk2-secretsmanager</module>
+    <module>aws-java-sdk2-sns</module>
+    <module>aws-java-sdk2-sqs</module>
+    <module>aws-java-sdk2-ssm</module>
+    <module>aws-java-sdk2-sts</module>
+  </modules>
+
+  <scm child.scm.connection.inherit.append.path="false" child.scm.developerConnection.inherit.append.path="false" child.scm.url.inherit.append.path="false">
+    <connection>scm:git:https://github.com/jenkinsci/aws-java-sdk2-plugin.git</connection>
+    <developerConnection>scm:git:git@github.com:jenkinsci/aws-java-sdk2-plugin.git</developerConnection>
+    <tag>${scmTag}</tag>
+    <url>https://github.com/jenkinsci/aws-java-sdk2-plugin</url>
+  </scm>
+
+  <properties>
+    <revision>2.29.21</revision>
+    <changelist>999999-SNAPSHOT</changelist>
+    <!-- https://www.jenkins.io/doc/developer/plugin-development/choosing-jenkins-baseline/ -->
+    <jenkins.baseline>2.479</jenkins.baseline>
+    <jenkins.version>${jenkins.baseline}.1</jenkins.version>
+    <autoVersionSubmodules>true</autoVersionSubmodules>
+    <spotless.check.skip>false</spotless.check.skip>
+  </properties>
+
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>io.jenkins.tools.bom</groupId>
+        <artifactId>bom-${jenkins.baseline}.x</artifactId>
+        <version>3696.vb_b_4e2d1a_0542</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
+      <dependency>
+        <groupId>software.amazon.awssdk</groupId>
+        <artifactId>bom</artifactId>
+        <version>${revision}</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+
+  <repositories>
+    <repository>
+      <id>repo.jenkins-ci.org</id>
+      <url>https://repo.jenkins-ci.org/public/</url>
+    </repository>
+  </repositories>
+
+  <pluginRepositories>
+    <pluginRepository>
+      <id>repo.jenkins-ci.org</id>
+      <url>https://repo.jenkins-ci.org/public/</url>
+    </pluginRepository>
+  </pluginRepositories>
+</project>
