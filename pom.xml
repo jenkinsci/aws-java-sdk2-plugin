@@ -4,7 +4,7 @@
   <parent>
     <groupId>org.jenkins-ci.plugins</groupId>
     <artifactId>plugin</artifactId>
-    <version>5.3</version>
+    <version>4.88</version>
     <relativePath />
   </parent>
 
@@ -61,7 +61,7 @@
     <revision>2.29.21</revision>
     <changelist>999999-SNAPSHOT</changelist>
     <!-- https://www.jenkins.io/doc/developer/plugin-development/choosing-jenkins-baseline/ -->
-    <jenkins.baseline>2.479</jenkins.baseline>
+    <jenkins.baseline>2.452</jenkins.baseline>
     <jenkins.version>${jenkins.baseline}.1</jenkins.version>
     <autoVersionSubmodules>true</autoVersionSubmodules>
     <spotless.check.skip>false</spotless.check.skip>
