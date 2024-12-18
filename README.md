@@ -7,6 +7,9 @@ This plugin provides the [AWS SDK for Java](https://aws.amazon.com/sdk-for-java/
 ### `aws-java-sdk2-core`
 
 This plugin contains shared libraries for use by AWS Java SDK modules.
+This plugin also contains the STS AWS Java SDK module, because shared authentication libraries need it in the same classpath and the structured classloaders in Jenkins do not permit the use of a separate plugin.
+
+* aws-java-sdk-sts
 
 ### `aws-java-sdk2-*`
 
