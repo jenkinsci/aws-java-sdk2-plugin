@@ -7,9 +7,9 @@
     <version>${revision}-${changelist}</version>
   </parent>
 
-  <artifactId>aws-java-sdk2-logs</artifactId>
+  <artifactId>aws-java-sdk2-cloudwatchlogs</artifactId>
   <packaging>hpi</packaging>
-  <name>Amazon Web Services SDK 2 :: Logs</name>
+  <name>Amazon Web Services SDK 2 :: CloudWatch Logs</name>
   <url>https://github.com/jenkinsci/aws-java-sdk2-plugin</url>
 
   <dependencies>
