@@ -28,6 +28,7 @@
     <module>aws-java-sdk2-autoscaling</module>
     <module>aws-java-sdk2-cloudformation</module>
     <module>aws-java-sdk2-cloudfront</module>
+    <module>aws-java-sdk2-cloudwatch</module>
     <module>aws-java-sdk2-cloudwatchlogs</module>
     <module>aws-java-sdk2-codebuild</module>
     <module>aws-java-sdk2-codedeploy</module>
