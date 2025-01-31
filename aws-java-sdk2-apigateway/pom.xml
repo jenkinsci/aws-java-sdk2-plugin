@@ -7,7 +7,7 @@
     <version>${revision}-${changelist}</version>
   </parent>
 
-  <artifactId>aws-java-sdk2-api-gateway</artifactId>
+  <artifactId>aws-java-sdk2-apigateway</artifactId>
   <packaging>hpi</packaging>
   <name>Amazon Web Services SDK 2 :: Api Gateway</name>
   <url>https://github.com/jenkinsci/aws-java-sdk2-plugin</url>
