@@ -12,8 +12,8 @@ As the current maintainer of this library plugin, I am not actively monitoring t
 
 To use a new instance type that is not yet available through this plugin:
 
-* Look up the version of AWS SDK that it was introduced ([changelog](https://github.com/aws/aws-sdk-java/blob/master/CHANGELOG.md/))
-* Find the latest dependabot pull request bumping the AWS SDK ([link](https://github.com/jenkinsci/aws-java-sdk-plugin/pulls?q=is:pr+is:open+sort:updated-desc+revision/))
+* Look up the version of AWS SDK that it was introduced ([changelog](https://github.com/aws/aws-sdk-java-v2/blob/master/CHANGELOG.md))
+* Find the latest dependabot pull request bumping the AWS SDK ([link](https://github.com/jenkinsci/aws-java-sdk2-plugin/pulls?q=is:pr+is:open+sort:updated-desc+revision/))
 * Ask for a merge and release and the version of the AWS SDK it was introduced in, after providing the instance type you are looking for.
 
 ## Plugins
