@@ -4,7 +4,7 @@ This plugin provides the [AWS SDK for Java](https://aws.amazon.com/sdk-for-java/
 
 ## Requesting new instance types
 
-Some plugins, such as the [ec2-plugin](https://github.com/jenkinsci/ec2-plugin/) rely on the AWS SDK to list available instance types. Updates of the AWS SDK come via this plugin.
+Some plugins rely on the AWS SDK to list available instance types. Updates of the AWS SDK come via this plugin.
 
 There is a new release of the AWS SDK every day, and most updates are not relevant to most Jenkins users.
 
