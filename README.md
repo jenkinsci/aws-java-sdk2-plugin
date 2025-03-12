@@ -6,7 +6,7 @@ This plugin provides the [AWS SDK for Java](https://aws.amazon.com/sdk-for-java/
 
 Some plugins rely on the AWS SDK to list available instance types. Updates of the AWS SDK come via this plugin.
 
-There is a new release of the AWS SDK every day, and most updates are not relevant to most Jenkins users.
+There is a regular release of the AWS SDK, and most updates are not relevant to most Jenkins users.
 
 As the current maintainer of this library plugin, I am not actively monitoring the [AWS SDK changelog](https://github.com/aws/aws-sdk-java/blob/master/CHANGELOG.md/).
 
