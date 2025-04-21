@@ -33,6 +33,7 @@
     <module>aws-java-sdk2-codebuild</module>
     <module>aws-java-sdk2-codedeploy</module>
     <module>aws-java-sdk2-core</module>
+    <module>aws-java-sdk2-crt</module>
     <module>aws-java-sdk2-ec2</module>
     <module>aws-java-sdk2-ecr</module>
     <module>aws-java-sdk2-ecs</module>
