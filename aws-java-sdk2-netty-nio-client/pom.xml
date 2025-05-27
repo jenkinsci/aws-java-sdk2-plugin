@@ -35,6 +35,11 @@
           <groupId>io.netty</groupId>
           <artifactId>*</artifactId>
         </exclusion>
+        <!-- Provided by AWS SDK2 core -->
+        <exclusion>
+          <groupId>org.reactivestreams</groupId>
+          <artifactId>reactive-streams</artifactId>
+        </exclusion>
         <!-- Provided by Jenkins core -->
         <exclusion>
           <groupId>org.slf4j</groupId>
