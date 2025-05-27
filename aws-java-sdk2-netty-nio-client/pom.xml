@@ -31,11 +31,12 @@
       <groupId>software.amazon.awssdk</groupId>
       <artifactId>netty-nio-client</artifactId>
       <exclusions>
+        <!-- Provided by netty-api plugin -->
         <exclusion>
           <groupId>io.netty</groupId>
           <artifactId>*</artifactId>
         </exclusion>
-        <!-- Provided by AWS SDK2 core -->
+        <!-- Provided by aws-java-sdk2-core plugin -->
         <exclusion>
           <groupId>org.reactivestreams</groupId>
           <artifactId>reactive-streams</artifactId>
@@ -44,6 +45,23 @@
         <exclusion>
           <groupId>org.slf4j</groupId>
           <artifactId>slf4j-api</artifactId>
+        </exclusion>
+        <!-- Provided by aws-java-sdk2-core plugin -->
+        <exclusion>
+          <groupId>software.amazon.awssdk</groupId>
+          <artifactId>annotations</artifactId>
+        </exclusion>
+        <exclusion>
+          <groupId>software.amazon.awssdk</groupId>
+          <artifactId>http-client-spi</artifactId>
+        </exclusion>
+        <exclusion>
+          <groupId>software.amazon.awssdk</groupId>
+          <artifactId>metrics-spi</artifactId>
+        </exclusion>
+        <exclusion>
+          <groupId>software.amazon.awssdk</groupId>
+          <artifactId>utils</artifactId>
         </exclusion>
       </exclusions>
     </dependency>
