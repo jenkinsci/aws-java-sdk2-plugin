@@ -20,7 +20,6 @@
       -->
       <groupId>io.jenkins.plugins</groupId>
       <artifactId>netty-api</artifactId>
-      <version>4.1.118.Final-9.v776038d601a_7</version>
     </dependency>
     <dependency>
       <groupId>io.jenkins.plugins.aws-java-sdk2</groupId>
