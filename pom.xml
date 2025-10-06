@@ -50,6 +50,7 @@
     <module>aws-java-sdk2-sqs</module>
     <module>aws-java-sdk2-ssm</module>
     <module>aws-java-sdk2-sso</module>
+    <module>aws-java-sdk2-sts</module>
   </modules>
 
   <scm child.scm.connection.inherit.append.path="false" child.scm.developerConnection.inherit.append.path="false" child.scm.url.inherit.append.path="false">
