@@ -39,6 +39,7 @@
     <module>aws-java-sdk2-efs</module>
     <module>aws-java-sdk2-elasticbeanstalk</module>
     <module>aws-java-sdk2-elasticloadbalancingv2</module>
+    <module>aws-java-sdk2-fsx</module>
     <module>aws-java-sdk2-iam</module>
     <module>aws-java-sdk2-kinesis</module>
     <module>aws-java-sdk2-lambda</module>
