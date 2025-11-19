@@ -37,6 +37,7 @@
     <module>aws-java-sdk2-ecr</module>
     <module>aws-java-sdk2-ecs</module>
     <module>aws-java-sdk2-efs</module>
+    <module>aws-java-sdk2-eks</module>
     <module>aws-java-sdk2-elasticbeanstalk</module>
     <module>aws-java-sdk2-elasticloadbalancingv2</module>
     <module>aws-java-sdk2-iam</module>
