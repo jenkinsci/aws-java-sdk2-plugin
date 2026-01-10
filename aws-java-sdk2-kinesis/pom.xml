@@ -12,6 +12,11 @@
   <name>Amazon Web Services SDK 2 :: Kinesis</name>
   <url>https://github.com/jenkinsci/aws-java-sdk2-plugin</url>
 
+  <properties>
+    <hpi.bundledArtifacts>kinesis</hpi.bundledArtifacts>
+    <hpi.strictBundledArtifacts>true</hpi.strictBundledArtifacts>
+  </properties>
+
   <dependencies>
     <dependency>
       <groupId>${project.groupId}</groupId>

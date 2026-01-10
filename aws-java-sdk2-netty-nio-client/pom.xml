@@ -12,6 +12,11 @@
   <name>AWS Java SDK :: HTTP Clients :: Netty Non-Blocking I/O</name>
   <url>https://github.com/jenkinsci/aws-java-sdk2-plugin</url>
 
+  <properties>
+    <hpi.bundledArtifacts>netty-nio-client</hpi.bundledArtifacts>
+    <hpi.strictBundledArtifacts>true</hpi.strictBundledArtifacts>
+  </properties>
+
   <dependencies>
     <dependency>
       <!--

@@ -12,6 +12,11 @@
   <name>Amazon Web Services SDK 2 :: SSO</name>
   <url>https://github.com/jenkinsci/aws-java-sdk2-plugin</url>
 
+  <properties>
+    <hpi.bundledArtifacts>sso,ssooidc</hpi.bundledArtifacts>
+    <hpi.strictBundledArtifacts>true</hpi.strictBundledArtifacts>
+  </properties>
+
   <dependencies>
     <dependency>
       <groupId>io.jenkins.plugins.aws-java-sdk2</groupId>
