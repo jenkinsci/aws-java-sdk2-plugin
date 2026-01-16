@@ -12,6 +12,11 @@
   <name>Amazon Web Services SDK 2 :: Core</name>
   <url>https://github.com/jenkinsci/aws-java-sdk2-plugin</url>
 
+  <properties>
+    <hpi.bundledArtifacts>annotations,apache-client,arns,auth,aws-cbor-protocol,aws-core,aws-json-protocol,aws-query-protocol,aws-xml-protocol,checksums,checksums-spi,endpoints-spi,eventstream,http-auth,http-auth-aws,http-auth-aws-eventstream,http-auth-spi,http-client-spi,identity-spi,json-utils,metrics-spi,profiles,protocol-core,reactive-streams,regions,retries,retries-spi,sdk-core,sts,third-party-jackson-core,third-party-jackson-dataformat-cbor,utils,utils-lite</hpi.bundledArtifacts>
+    <hpi.strictBundledArtifacts>true</hpi.strictBundledArtifacts>
+  </properties>
+
   <dependencies>
     <dependency>
       <groupId>org.jenkins-ci.plugins</groupId>

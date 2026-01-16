@@ -12,6 +12,11 @@
   <name>Amazon Web Services SDK 2 :: EC2</name>
   <url>https://github.com/jenkinsci/aws-java-sdk2-plugin</url>
 
+  <properties>
+    <hpi.bundledArtifacts>ec2</hpi.bundledArtifacts>
+    <hpi.strictBundledArtifacts>true</hpi.strictBundledArtifacts>
+  </properties>
+
   <dependencies>
     <dependency>
       <groupId>${project.groupId}</groupId>

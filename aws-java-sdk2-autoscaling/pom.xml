@@ -12,6 +12,11 @@
   <name>Amazon Web Services SDK 2 :: Autoscaling</name>
   <url>https://github.com/jenkinsci/aws-java-sdk2-plugin</url>
 
+  <properties>
+    <hpi.bundledArtifacts>autoscaling</hpi.bundledArtifacts>
+    <hpi.strictBundledArtifacts>true</hpi.strictBundledArtifacts>
+  </properties>
+
   <dependencies>
     <dependency>
       <groupId>${project.groupId}</groupId>

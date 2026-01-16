@@ -12,6 +12,11 @@
   <name>Amazon Web Services SDK 2 :: SNS</name>
   <url>https://github.com/jenkinsci/aws-java-sdk2-plugin</url>
 
+  <properties>
+    <hpi.bundledArtifacts>sns</hpi.bundledArtifacts>
+    <hpi.strictBundledArtifacts>true</hpi.strictBundledArtifacts>
+  </properties>
+
   <dependencies>
     <dependency>
       <groupId>io.jenkins.plugins.aws-java-sdk2</groupId>
