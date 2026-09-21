@@ -13,7 +13,7 @@
   <url>https://github.com/jenkinsci/aws-java-sdk2-plugin</url>
 
   <properties>
-    <hpi.bundledArtifacts>s3,s3-transfer-manager</hpi.bundledArtifacts>
+    <hpi.bundledArtifacts>apache5-client,httpclient5,httpcore5,httpcore5-h2,s3,s3-transfer-manager</hpi.bundledArtifacts>
     <hpi.strictBundledArtifacts>true</hpi.strictBundledArtifacts>
   </properties>
 
