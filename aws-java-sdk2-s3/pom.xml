@@ -37,6 +37,10 @@
         </exclusion>
         <exclusion>
           <groupId>software.amazon.awssdk</groupId>
+          <artifactId>apache5-client</artifactId>
+        </exclusion>
+        <exclusion>
+          <groupId>software.amazon.awssdk</groupId>
           <artifactId>arns</artifactId>
         </exclusion>
         <exclusion>
@@ -176,6 +180,10 @@
         <exclusion>
           <groupId>software.amazon.awssdk</groupId>
           <artifactId>apache-client</artifactId>
+        </exclusion>
+        <exclusion>
+          <groupId>software.amazon.awssdk</groupId>
+          <artifactId>apache5-client</artifactId>
         </exclusion>
         <exclusion>
           <groupId>software.amazon.awssdk</groupId>
